@@ -143,20 +143,21 @@ while not game_closed:
         clock.tick(25)
 
     if won == 1:
-        display.blit(pygame.font.SysFont('loss notification', 50).render('Pink won', True, RED), [300, 250])
+        display.blit(pygame.font.SysFont('loss notification', 50).render('Cyan won', True, RED), [300, 250])
     elif won == 2:
-        display.blit(pygame.font.SysFont('loss notification', 50).render('Red won!', True, RED), [300, 250])
+        display.blit(pygame.font.SysFont('loss notification', 50).render('Brown won!', True, RED), [300, 250])
 
     pygame.display.update()
     time.sleep(3)
     pygame.display.update()
     display.blit(pygame.font.SysFont('loss notification', 50).render('Press space to restart', True, GREEN), [300, 350])
     pygame.display.update()
-    time.sleep(2)
-    for event in pygame.event.get():
+    pygame.event.clear()
+    while True:
+        event = pygame.event.wait()
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
-                continue
+                break
             else:
                 game_closed = True
                 break
