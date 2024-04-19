@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="23">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="asgiref" />
+            <item index="2" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="3" class="java.lang.String" itemvalue="Pillow" />
+            <item index="4" class="java.lang.String" itemvalue="traitlets" />
+            <item index="5" class="java.lang.String" itemvalue="decorator" />
+            <item index="6" class="java.lang.String" itemvalue="matplotlib-inline" />
+            <item index="7" class="java.lang.String" itemvalue="six" />
+            <item index="8" class="java.lang.String" itemvalue="parso" />
+            <item index="9" class="java.lang.String" itemvalue="ptyprocess" />
+            <item index="10" class="java.lang.String" itemvalue="pickleshare" />
+            <item index="11" class="java.lang.String" itemvalue="ipython" />
+            <item index="12" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="13" class="java.lang.String" itemvalue="executing" />
+            <item index="14" class="java.lang.String" itemvalue="pexpect" />
+            <item index="15" class="java.lang.String" itemvalue="appnope" />
+            <item index="16" class="java.lang.String" itemvalue="jedi" />
+            <item index="17" class="java.lang.String" itemvalue="pure-eval" />
+            <item index="18" class="java.lang.String" itemvalue="asttokens" />
+            <item index="19" class="java.lang.String" itemvalue="backcall" />
+            <item index="20" class="java.lang.String" itemvalue="Pygments" />
+            <item index="21" class="java.lang.String" itemvalue="stack-data" />
+            <item index="22" class="java.lang.String" itemvalue="prompt-toolkit" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="catalog.urls.home" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

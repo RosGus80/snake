@@ -40,6 +40,19 @@ CYAN = (0, 255, 255)
 BROWN = (244, 164, 96)
 RED = (255, 0, 0)
 
+x1 = 0
+y1 = 0
+x1_change = 0
+y1_change = 0
+score1 = 1
+x2 = 0
+y2 = 0
+x2_change = 0
+y2_change = 0
+score2 = 1
+snake_list1 = []
+snake_list2 = []
+
 pygame.init()
 
 clock = pygame.time.Clock()
@@ -140,7 +153,7 @@ while not game_closed:
 
         pygame.display.update()
 
-        clock.tick(25)
+        clock.tick(20)
 
     if won == 1:
         display.blit(pygame.font.SysFont('loss notification', 50).render('Cyan won', True, RED), [300, 250])
