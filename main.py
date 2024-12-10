@@ -174,6 +174,9 @@ while not game_closed:
             else:
                 game_closed = True
                 break
+        elif event.type == pygame.QUIT:
+            pygame.quit()
+            exit()
 
 pygame.quit()
 exit()
